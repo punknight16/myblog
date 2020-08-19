@@ -1,4 +1,4 @@
-# Welcome to Jekyll!
+#Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely edit after that. If you find
@@ -22,7 +22,7 @@ title: Punknight's Blog
 email: punknight16@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Just trying to understand the world a little bit better.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "myblog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: punknight16
 github_username:  punknight16
@@ -51,3 +51,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "post"
+    values:
+      layout: "post"

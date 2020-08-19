@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: "post"
 title:  "Long Term Goals"
 date:   2020-08-14 15:40:24 -0700
 categories: general

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: "post"
 title:  "Jekyll Blog Project Proposal"
 date:   2020-08-16 15:40:24 -0700
 categories: projects blogs
